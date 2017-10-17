@@ -70,11 +70,11 @@ p {
     font-size: 13px;
     line-height: 1.5;
     color: #4e5050;
-<<<<<<< HEAD
     text-align: justify;
     text-indent: 20px;
-=======
->>>>>>> 604b05bbca3f22b1b66a68d91a2ada02b8df9a8f
+}
+.princilesList p {
+    text-indent: 0;
 }
 ul {
     padding: 0;
@@ -153,10 +153,7 @@ img {
     width: 170px;
     height: 145px;
     padding: 22px;
-<<<<<<< HEAD
     text-align: justify;
-=======
->>>>>>> 604b05bbca3f22b1b66a68d91a2ada02b8df9a8f
 }
 .notificationCont:before {
     content: "“ \a0"; 
@@ -171,4 +168,3 @@ img {
 .authorPosition {
     text-align: center;
 }
-
