@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Pathway+Gothic+One");
+@font-face{
+    font-family: "ArialRegular";
+    src: url("../fonts/ArialRegular.eot") format("eot");
+    src: url("../fonts/ArialRegular.ttf") format("ttf");    
+    src: url("../fonts/WebFont.woff") format("woff");
+}
+body {
+    background-image: url(../img/bg_sky.png);
+    margin: 0;
+}
+.wrapper {
+    max-width: 1024px;
+    margin: auto;
+    font-size: 0;
+    background-color: #fff;
+}
+/* Колонки */
+.leftColumn {
+    display: inline-block;
+    width: 650px;
+    margin-left: 62px;
+    margin-bottom: 75px;
+}
+.rightColumn {
+    display: inline-block;
+    width: 215px;
+    margin-left: 30px;
+    margin-bottom: 75px;
+    font-size: 0;
+    vertical-align: top;
+}
+
+/* Информационные блоки */
+.agencyProfCont,
+.princilesList {
+    height: 515px;    
+    margin-top: 117px; 
+}
+.offerInfo,
+.testimonal {
+    margin-top: 110px;
+}
+
+/* Заголовки */
+h2 {
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 32px;
+    color: #263555;
+    text-transform: uppercase;
+}
+h6 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: "ArialRegular", sans-serif;
+    font-size: 15px;
+    color: #263555;
+}
+.topHeader {
+    margin-bottom: 50px;
+}
+.offerHeader {
+    margin-bottom: 65px;
+}
+
+/* Контент */
+/* Общее */
+p {
+    font-family: "ArialRegular", sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #4e5050;
+<<<<<<< HEAD
+    text-align: justify;
+    text-indent: 20px;
+=======
+>>>>>>> 604b05bbca3f22b1b66a68d91a2ada02b8df9a8f
+}
+ul {
+    padding: 0;
+}
+
+/* Блок AGENCY PROFILE  */
+img {
+    float: left;
+    width: 354px;
+    height: 281px;
+    margin-right: 18px;
+    margin-bottom: 10px;
+}
+
+/* Блок OUR PRINCIPLES  */
+.principleHeaders,
+.principleInfo {
+    margin-left: 40px;
+}
+.principItem1:before,
+.principItem2:before,
+.principItem3:before { 
+    text-align: center;
+    line-height: 28px;
+    font-family: "ArialRegular", sans-serif;
+    font-size: 13px;
+    color: #fff; 
+    float: left;
+    width: 26px;
+    height: 28px;     
+    background-image: url(../img/list_marker.png);
+}
+.principItem1:before {
+    content: "1";
+}
+.principItem2:before {
+    content: "2";
+}
+.principItem3:before {
+    content: "3";
+}
+
+/* Блок WHAT WE OFFER  */
+.offerListLeftSide, 
+.offerListRightSide {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    margin: 0;
+    padding-left: 0;
+    vertical-align: top;
+    font-family: "ArialRegular", sans-serif;
+    font-size: 15px;
+    color: #263555;  
+}
+/* .offerList {
+    padding: 0 50px 0 50px;
+} */
+.offerListItem {
+    line-height: 38px; 
+    list-style-type: none;
+}
+.offerListItem:before {
+    content: "🡒 \a0 \a0 \a \a0 \a0";
+    font-size: 10px;
+    color: #38afe5;   
+}
+
+/* Блок TESTIMONAL  */
+.notification {
+    width: 211px;
+    height: 219px;
+    background-image: url(../img/notification.png);
+}
+.notificationCont {
+    width: 170px;
+    height: 145px;
+    padding: 22px;
+<<<<<<< HEAD
+    text-align: justify;
+=======
+>>>>>>> 604b05bbca3f22b1b66a68d91a2ada02b8df9a8f
+}
+.notificationCont:before {
+    content: "“ \a0"; 
+}
+.notificationCont:after {  
+    content: "\a0 ”";  
+}  
+.authorName {
+    margin-top: 35px;
+    text-align: center;
+}
+.authorPosition {
+    text-align: center;
+}
+
