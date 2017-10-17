@@ -72,9 +72,12 @@ p {
     color: #4e5050;
     text-align: justify;
     text-indent: 20px;
+<<<<<<< HEAD
 }
 .princilesList p {
     text-indent: 0;
+=======
+>>>>>>> 85ec94a849eaef0d32d42de7427518a2b51d075e
 }
 ul {
     padding: 0;
